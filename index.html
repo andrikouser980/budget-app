@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<meta name="voiceport" content="width=device-width, initial-scale=1.0"/>
+<title>
+    My Budget App
+</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<main>
+    <Section>
+        <h1>
+            Monthly Budget
+        </h1>
+        <p id="monthlyBudget"></p>
+        <form>
+            <input type="number" placeholder="Monthly Income" id="incomeInput"/>
+        <button id="updateBudgetButton">
+            Update Budget
+        </button>
+        </form>
+    </Section>
+    <Section><form>
+        <h1>
+            Add Expense
+        </h1>
+        <input type="text" placeholder="Expense Name" id="nameInput"/>
+        <input type="number" placeholder="Expense Amount" id="amountInput"/>
+    <button id="addExpenseButton">
+        Add Expense
+    </button>
+</Section>
+<Section><h1>
+    Expense List
+</h1>
+<div id="expenseList"></div></Section>
+    <Section><h1>
+        Total Expenses
+    </h1>  <p id="totalExpenses"></p></Section> 
+    <Section><h1>
+        Remaining Balance
+    </h1>  <p id="remainingBalance"></p></Section>
+</main>
+<script src="script1.js"></script>
+</body>
+
+</html>
